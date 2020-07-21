@@ -1,0 +1,947 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "121374",
+      "name": "Runfalcon Trainers Mens",
+      "description": "Start clocking miles in these lightweight running shoes. On the treadmill or the streets, they add comfort to each step with soft cushioning. The supportive trainers have an airy material-mix upper and a midfoot cage for extra support.",
+      "price": 37.99,
+      "category": 2,
+      "brand": "adidas",
+      "rating": 4.6,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/11303402_l.jpg",
+      "image": "11303402_l.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "113034",
+      "name": "Pace VS Nubuck Mens Trainers",
+      "description": "The Mens adidas Pace VS Nubuck Trainers offer a simple and stylish look that is perfect for everyday wear, crafted with a simple nubuck upper with tonal stitched detail teamed with a two tone striped pull tab to the heel. A lace fastening front with a shaped and padded ankle collar and a cushioned insole provide a secure and comfortable fit, completed with the iconic adidas three stripes to the sides, perfect for everyday casual wear.",
+      "price": 37.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.6,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/11303403_l.jpg",
+      "image": "11303403_l.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "163038",
+      "name": "VL Court 2 Suede Shoes Mens",
+      "description": "The adidas VL Court 2 Suede Shoes are a classic wear. Built with a lace fastening, cushioned ankle collar and Ortholite Float insole for comfort. With the iconic 3 stripes to the sidewall, the look is finished with adidas branding to the sole and tongue. ",
+      "price": 42.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 5,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/11303422_l.jpg",
+      "image": "11303422_l.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "163039",
+      "name": "Pace VS Nubuck Mens Trainers",
+      "description": "The Mens adidas Pace VS Nubuck Trainers offer a simple and stylish look that is perfect for everyday wear, crafted with a simple nubuck upper with tonal stitched detail teamed with a two tone striped pull tab to the heel. A lace fastening front with a shaped and padded ankle collar and a cushioned insole provide a secure and comfortable fit, completed with the iconic adidas three stripes to the sides, perfect for everyday casual wear. ",
+      "price": 36.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 3.2,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/11303493_l.jpg",
+      "image": "11303493_l.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "121375",
+      "name": "Runfalcon Trainers Mens ",
+      "description": "Start clocking miles in these lightweight running shoes. On the treadmill or the streets, they add comfort to each step with soft cushioning. The supportive trainers have an airy material-mix upper and a midfoot cage for extra support. ",
+      "price": 35.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.1,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/11303494_l.jpg",
+      "image": "11303494_l.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "113201",
+      "name": "Hoops Mid Leather Mens Trainers",
+      "description": "The adidas Hoops Mid Leather Trainers come in a stylish design with a lace up fastening, padded ankle and cushioned insole for a comfortable fit. The midsole is thick for a cushioned step and the sole has textured grip to improve traction. The perforations in the forefoot help with breathability and adidas branding completes the design.",
+      "price": 39.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.4,
+      "recommeded_for": "Comfort",
+      "image_url": "https://images.sportsdirect.com/images/products/11303803_l.jpg",
+      "image": "11303803_l.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "113050",
+      "name": "Copa Super Suede Trainers Mens ",
+      "description": "These adidas Copa Super Suede Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They then further feature a cushioned insole for comfort and moulded sole for grip. These trainers are designed with a signature logo and are complete with adidas branding.",
+      "price": 52.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.3,
+      "recommeded_for": "Comfort",
+      "image_url": "https://images.sportsdirect.com/images/products/11305008_l.jpg",
+      "image": "11305008_l.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "145048",
+      "name": "Essence Squash Trainers Mens",
+      "description": "These adidas Essence Squash Trainers are crafted with lace fastening and a padded ankle collar for a secure, supported fit. They feature a cushioned insole for comfort and a non-marking sole for grip. These trainers are designed with a signature logo and are complete with adidas branding.",
+      "price": 52.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.3,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/11320192_l.jpg",
+      "image": "11320192_l.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "211975",
+      "name": "AlphaBounce 3 Men's Trainers",
+      "description": "These adidas Essence Squash Trainers are crafted with lace fastening and a padded ankle collar for a secure, supported fit. They feature a cushioned insole for comfort and a non-marking sole for grip. These trainers are designed with a signature logo and are complete with adidas branding.",
+      "price": 46.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.1,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/12137501_l.jpg",
+      "image": "12137501_l.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "121376",
+      "name": "Runfalcon Trainers Mens ",
+      "description": "Start clocking miles in these lightweight running shoes. On the treadmill or the streets, they add comfort to each step with soft cushioning. The supportive trainers have an airy material-mix upper and a midfoot cage for extra support.",
+      "price": 42.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.6,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/12137503_l.jpg",
+      "image": "12137503_l.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "263151",
+      "name": "Samba Suede Trainers",
+      "description": "These adidas Samba Suede Mens Trainers sport a textured toe bumper with a stitched heel panel and a comfortable fit with padding to the ankle collar. These mens adidas trainers feature the classic adidas 3-Stripe styling to the sides, tongue and heel and benefit from a moulded outsole for use on every day surfaces. ",
+      "price": 62.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.9,
+      "recommeded_for": "Comfort",
+      "image_url": "https://images.sportsdirect.com/images/products/12137508_l.jpg",
+      "image": "12137508_l.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "113034",
+      "name": "Pace VS Nubuck Mens Trainers",
+      "description": "The Mens adidas Pace VS Nubuck Trainers offer a simple and stylish look that is perfect for everyday wear, crafted with a simple nubuck upper with tonal stitched detail teamed with a two tone striped pull tab to the heel. A lace fastening front with a shaped and padded ankle collar and a cushioned insole provide a secure and comfortable fit, completed with the iconic adidas three stripes to the sides, perfect for everyday casual wear.",
+      "price": 45.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.1,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/12137516_l.jpg",
+      "image": "12137516._ljpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "121370",
+      "name": "Runfalcon Trainers Mens ",
+      "description": "Start clocking miles in these lightweight running shoes. On the treadmill or the streets, they add comfort to each step with soft cushioning. The supportive trainers have an airy material-mix upper and a midfoot cage for extra support.",
+      "price": 35.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 3.9,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/12137526_l.jpg",
+      "image": "12137526_.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "262156",
+      "name": "Runfalcon Trainers Mens ",
+      "description": "Start clocking miles in these lightweight running shoes. On the treadmill or the streets, they add comfort to each step with soft cushioning. The supportive trainers have an airy material-mix upper and a midfoot cage for extra support.",
+      "price": 35.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 3.9,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/12137544_l.jpg",
+      "image": "12137544_l.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "262132",
+      "name": "Runfalcon Trainers Mens",
+      "description": "Start clocking miles in these lightweight running shoes. On the treadmill or the streets, they add comfort to each step with soft cushioning. The supportive trainers have an airy material-mix upper and a midfoot cage for extra support.",
+      "price": 36.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 3.8,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/12137545_l.jpg",
+      "image": "12137545_l.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "262133",
+      "name": "Runfalcon Trainers Mens",
+      "description": "Start clocking miles in these lightweight running shoes. On the treadmill or the streets, they add comfort to each step with soft cushioning. The supportive trainers have an airy material-mix upper and a midfoot cage for extra support.",
+      "price": 32.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 3.7,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/12137591_l.jpg",
+      "image": "12137591_l.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "262134",
+      "name": "Lite Racer Mens Trainers",
+      "description": "The adidas Lite Racer Trainers have a simple statement look that is perfect for any everyday casual outfit, designed with a mesh panel upper with tonal stitching along with the iconic three stripes in a contrasting finish that is ideal for finishing any outfit. These adidas trainers have also been designed with a cloudfoam insole along with a moulded outsole for a super comfortable ride, finished off with the adidas branding to the tongue and heel. Do not miss out on these ones, perfect for everyday attire.",
+      "price": 38.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.8,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/12306001_l.jpg",
+      "image": "12306001_l.jpg"
+    }
+  },
+   {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "262135",
+      "name": "Pace VS Nubuck Mens Trainers",
+      "description": "The Mens adidas Pace VS Nubuck Trainers offer a simple and stylish look that is perfect for everyday wear, crafted with a simple nubuck upper with tonal stitched detail teamed with a two tone striped pull tab to the heel. A lace fastening front with a shaped and padded ankle collar and a cushioned insole provide a secure and comfortable fit, completed with the iconic adidas three stripes to the sides, perfect for everyday casual wear.",
+      "price": 43.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.2,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/12306003_l.jpg",
+      "image": "12306003_l.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "262136",
+      "name": "Lite Racer Mens Trainers",
+      "description": "The adidas Lite Racer Trainers have a simple statement look that is perfect for any everyday casual outfit, designed with a mesh panel upper with tonal stitching along with the iconic three stripes in a contrasting finish that is ideal for finishing any outfit. These adidas trainers have also been designed with a cloudfoam insole along with a moulded outsole for a super comfortable ride, finished off with the adidas branding to the tongue and heel. Do not miss out on these ones, perfect for everyday attire.",
+      "price": 41.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.4,
+      "recommeded_for": "Causal Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/12306203.jpg",
+      "image": "12306203_l.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "262137",
+      "name": "Pace VS Mens Trainers",
+      "description": "The Mens adidas Pace VS Trainers offer a simple and stylish design that is perfect for any causal wardrobe, featuring tonal stitched detail across the upper along with the iconic three stripes to the sides and a banded pull tab to the heel. These adidas trainers have also been designed with a lace fastening front with a cushioned insole and shaped ankle collar for a secure and comfortable fit, completed with the adidas branding to the side and tongue. ",
+      "price": 39.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.3,
+      "recommeded_for": "Causal Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/12312703_l.jpg",
+      "image": "12312703_l.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "262138",
+      "name": "Pace VS Mens Trainers",
+      "description": "The Mens adidas Pace VS Trainers offer a simple and stylish design that is perfect for any causal wardrobe, featuring tonal stitched detail across the upper along with the iconic three stripes to the sides and a banded pull tab to the heel. These adidas trainers have also been designed with a lace fastening front with a cushioned insole and shaped ankle collar for a secure and comfortable fit, completed with the adidas branding to the side and tongue. ",
+      "price": 31.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.6,
+      "recommeded_for": "Causal Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/12314822_l.jpg",
+      "image": "12314822_l.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "271001",
+      "name": "Pace VS Mens Trainers",
+      "description": "The Mens adidas Pace VS Trainers offer a simple and stylish design that is perfect for any causal wardrobe, featuring tonal stitched detail across the upper along with the iconic three stripes to the sides and a banded pull tab to the heel. These adidas trainers have also been designed with a lace fastening front with a cushioned insole and shaped ankle collar for a secure and comfortable fit, completed with the adidas branding to the side and tongue. ",
+      "price": 42.99,
+      "brand": "adidas",
+      "category": 2,
+      "rating": 4.9,
+      "recommeded_for": "Causal Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/14504840_l.jpg",
+      "image": "14504840_l.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "271002",
+      "name": "Runfalcon Trainers Ladies",
+      "description": "Start clocking miles in these lightweight running shoes. On the treadmill or the streets, they add comfort to each step with soft cushioning. The supportive trainers have an airy material-mix upper and a midfoot cage for extra support.",
+      "price": 42.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 3.9,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27113103_l.jpg",
+      "image": "27113103_l.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "271003",
+      "name": "Court Set Leather Trainers Ladies ",
+      "description": "These adidas Court Set Leather Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a moulded sole for grip. These trainers are designed with a signature logo and are complete with adidas branding.",
+      "price": 44.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 4.0,
+      "recommeded_for": "Comfort",
+      "image_url": "https://images.sportsdirect.com/images/products/27544030_l.jpg",
+      "image": "27544030_l.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "271004",
+      "name": "Runfalcon Trainers Ladies",
+      "description": "Start clocking miles in these lightweight running shoes. On the treadmill or the streets, they add comfort to each step with soft cushioning. The supportive trainers have an airy material-mix upper and a midfoot cage for extra support.",
+      "price": 36.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 4.1,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27113140_l.jpg",
+      "image": "27113140_l.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "271005",
+      "name": "Courtset Suede Trainers Ladies ",
+      "description": "These adidas Courtset Suede Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a moulded sole for grip. These trainers are designed with a signature logo and are complete with adidas branding.",
+      "price": 37.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 4.4,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/27543890_l.jpg",
+      "image": "27543890_l.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "271006",
+      "name": "Crazy Chaos Ladies Trainers ",
+      "description": "These adidas Crazy Chaos Trainers are crafted with lace fastening and a padded ankle collar for a secure, locked in fit. They feature a cushioned insole for comfort and a chunky sole for grip. These trainers are designed with the iconic 3 stripes and are complete with adidas branding.",
+      "price": 37.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 4.4,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27155190_l.jpg",
+      "image": "27155190_l.jpg"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "271007",
+      "name": "Grand Court Ladies Trainers",
+      "description": "These adidas Grand Court Ladies Trainers have been crafted with a cushioned insole and padded ankle collar for enhanced comfort, whilst the textured rubber outsole provides great traction and the iconic three stripe branding completes the classic and stylish look. .",
+      "price": 46.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 4.7,
+      "recommeded_for": "Comfort",
+      "image_url": "https://images.sportsdirect.com/images/products/27404001_l.jpg",
+      "image": "27404001_l.jpg"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "271008",
+      "name": "Courtset Suede Trainers Ladies ",
+      "description": "These adidas Courtset Suede Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a moulded sole for grip. These trainers are designed with a signature logo and are complete with adidas branding.",
+      "price": 52.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 4.6,
+      "recommeded_for": "Causal",
+      "image_url": "https://images.sportsdirect.com/images/products/27543824_l.jpg",
+      "image": "27543824_l.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "271009",
+      "name": "Lite Racer 2 Womens Trainers",
+      "description": "The Womens adidas Lite Racer 2 Trainers are a perfect addition to your everyday wardrobe, featuring a shaped ankle collar and lace fastening for a secure fit, along with a mesh upper for increased breathability. A moulded outsole along with a cushioned insole and midsole give a comfortable ride and the adidas branding completes the look.",
+      "price": 67.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 5.0,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27113316_l.jpg",
+      "image": "27113316_l.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "271010",
+      "name": "Grand Court Ladies Trainers",
+      "description": "These adidas Grand Court Shoes are crafted with lace fastening and a padded ankle collar for a secure, locked in fit. They feature a cushioned insole for comfort and a chunky sole for grip. These trainers are designed with a signature logo and are complete with adidas branding.",
+      "price": 56.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 3.6,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27425591_l.jpg",
+      "image": "27425591_l.jpg"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "271011",
+      "name": "Cloudfoam QT Racer Ladies Trainers",
+      "description": "These adidas Cloudfoam QT Racer Ladies Trainers have been crafted with a mesh forefoot for superior breathability, whilst the cloudfoam midsole and memory foam footbed delivers exceptional comfort with every step you take. The trainers are extremely lightweight which allows you to move with complete freedom and the adidas branding completes the stylish look.",
+      "price": 47.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 3.8,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27148740_l.jpg",
+      "image": "27148740_l.jpg"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "271012",
+      "name": "Court Bold Ladies Trainers",
+      "description": "Upgrade your casual collection with these adidas Court Bold Ladies Trainers. They are perfect for everyday wear thanks to a padded heel counter and ankle collar, whilst a cushioned midsole provides comfort every step of the way. The look is completed with the iconic adidas three stripe branding. You do not want to miss out on these essential trainers, perfect for everyday attire.",
+      "price": 32.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 3.4,
+      "recommeded_for": "Causal",
+      "image_url": "https://images.sportsdirect.com/images/products/27636001_l.jpg",
+      "image": "27636001_l.jpg"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "sku": "271013",
+      "name": "Courtset Suede Trainers Ladies ",
+      "description": "These adidas Courtset Suede Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a moulded sole for grip. These trainers are designed with a signature logo and are complete with adidas branding",
+      "price": 38.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 5.0,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/27543816_l.jpg",
+      "image": "27543816_l.jpg"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "sku": "271014",
+      "name": "Advantage Base Ladies Trainers ",
+      "description": "Upgrade your casual collection with these adidas Advantage Base Ladies Trainers. They are perfect for everyday wear thanks to a padded heel counter and ankle collar, whilst a cushioned midsole provides comfort every step of the way. The look is completed with adidas branding.",
+      "price": 32.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 3.0,
+      "recommeded_for": "Comfort",
+      "image_url": "https://images.sportsdirect.com/images/products/27407932_l.jpg",
+      "image": "27407932_l.jpg"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "sku": "271015",
+      "name": "Court Bold Ladies Trainers",
+      "description": "Upgrade your casual collection with these adidas Court Bold Ladies Trainers. They are perfect for everyday wear thanks to a padded heel counter and ankle collar, whilst a cushioned midsole provides comfort every step of the way. The look is completed with the iconic adidas three stripe branding. You do not want to miss out on these essential trainers, perfect for everyday attire.",
+      "price": 34.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 3.8,
+      "recommeded_for": "Causal",
+      "image_url": "https://images.sportsdirect.com/images/products/27636006_l.jpg",
+      "image": "27636006_l.jpg"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "sku": "271016",
+      "name": "Strutter Ladies Trainers",
+      "description": "These adidas Strutter Trainers are crafted with lace fastening and padded tongue and ankle collar for a secure fit. They feature a cushioned insole for comfort and a chunky sole for grip. These trainers are designed with the iconic 3 stripes and are complete with adidas branding..",
+      "price": 36.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 3.6,
+      "recommeded_for": "Comfort",
+      "image_url": "https://images.sportsdirect.com/images/products/27523601_l.jpg",
+      "image": "27523601_l.jpg"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "sku": "271017",
+      "name": "Crazy Chaos Ladies Trainers ",
+      "description": "These adidas Crazy Chaos Trainers are crafted with lace fastening and a padded ankle collar for a secure, locked in fit. They feature a cushioned insole for comfort and a chunky sole for grip. These trainers are designed with the iconic 3 stripes and are complete with adidas branding.",
+      "price": 66.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 4.9,
+      "recommeded_for": "Comfort",
+      "image_url": "https://images.sportsdirect.com/images/products/27155103_l.jpg",
+      "image": "27155103_l.jpg"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "sku": "271018",
+      "name": "VL Court Suede Womens Trainers",
+      "description": "The Womens adidas VL Court Suede Trainers are perfect for everyday wear, featuring a shaped ankle collar and lace fastening for a secure fit, a suede upper and stitched detailing gives a stylish look and the adidas branding to the side completes the look.",
+      "price": 54.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 4.1,
+      "recommeded_for": "Causal",
+      "image_url": "https://images.sportsdirect.com/images/products/27041422_l.jpg",
+      "image": "27041422_l.jpg"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "sku": "271019",
+      "name": "Alpha Bounce 3 Trainers Ladies",
+      "description": "These adidas Alpha Bounce 3 Trainers are crafted with lace fastening and a padded ankle collar for a secure, locked in fit. They feature a cushioned insole for comfort and thick foam sole for shock absorption. These trainers are designed with a signature logo and are complete with adidas branding.",
+      "price": 58.99,
+      "brand": "adidas",
+      "category": 1,
+      "rating": 4.4,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/21499224_l.jpg",
+      "image": "21499224_l.jpg"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "sku": "271020",
+      "name": "Converse Ox Costa Trainers Ladies ",
+      "description": "These Converse Ox Costa Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a thick rubber sole for grip. These trainers are designed with a signature logo and are complete with Converse branding.",
+      "price": 56.99,
+      "brand": "converse",
+      "category": 1,
+      "rating": 4.3,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/24824501_l.jpg",
+      "image": "24824501_l.jpg"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "sku": "271021",
+      "name": "Converse Ox Costa Trainers Ladies ",
+      "description": "These Converse Ox Costa Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a thick rubber sole for grip. These trainers are designed with a signature logo and are complete with Converse branding.",
+      "price": 65.99,
+      "brand": "converse",
+      "category": 1,
+      "rating": 4.8,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/27617240_l.jpg",
+      "image": "27617240_l.jpg"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "sku": "271022",
+      "name": "Ox Costa Trainers Ladies ",
+      "description": "These Converse Ox Costa Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a thick rubber sole for grip. These trainers are designed with a signature logo and are complete with Converse branding.",
+      "price": 38.99,
+      "brand": "converse",
+      "category": 1,
+      "rating": 4.1,
+      "recommeded_for": "Casual",
+      "image_url": "https://images.sportsdirect.com/images/products/24824540_l.jpg",
+      "image": "24824540_l.jpg"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "sku": "271023",
+      "name": "Replay Ladies Trainers  ",
+      "description": "Update your casual collection with these Converse Replay Ladies Trainers. They are perfect for everyday wear thanks to a padded insole that cushions every step, whilst the lightweight upper ensures freedom of movement. The look is completed with a contrasting heel tab and Converse branding.",
+      "price": 41.99,
+      "brand": "converse",
+      "category": 1,
+      "rating": 3.1,
+      "recommeded_for": "Casual",
+      "image_url": "https://images.sportsdirect.com/images/products/24801301_l.jpg",
+      "image": "24801301_l.jpg"
+    }
+  },
+    {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "sku": "271024",
+      "name": "Replay Ladies Trainers ",
+      "description": "Update your casual collection with these Converse Replay Ladies Trainers. They are perfect for everyday wear thanks to a padded insole that cushions every step, whilst the lightweight upper ensures freedom of movement. The look is completed with a contrasting heel tab and Converse branding.",
+      "price": 43.99,
+      "brand": "converse",
+      "category": 1,
+      "rating": 3.8,
+      "recommeded_for": "Casual",
+      "image_url": "https://images.sportsdirect.com/images/products/27511630_l.jpg",
+      "image": "27511630_l.jpg"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "sku": "271025",
+      "name": "Replay Ladies Trainers ",
+      "description": "Update your casual collection with these Converse Replay Ladies Trainers. They are perfect for everyday wear thanks to a padded insole that cushions every step, whilst the lightweight upper ensures freedom of movement. The look is completed with a contrasting heel tab and Converse branding.",
+      "price": 46.99,
+      "brand": "converse",
+      "category": 1,
+      "rating": 3.4,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/24824561_l.jpg",
+      "image": "24824561_l.jpg"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "sku": "271026",
+      "name": "Replay Ladies Trainers ",
+      "description": "Update your casual collection with these Converse Replay Ladies Trainers. They are perfect for everyday wear thanks to a padded insole that cushions every step, whilst the lightweight upper ensures freedom of movement. The look is completed with a contrasting heel tab and Converse branding.",
+      "price": 41.99,
+      "brand": "converse",
+      "category": 1,
+      "rating": 4.3,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/24824503_l.jpg",
+      "image": "24824503_l.jpg"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "sku": "271027",
+      "name": "Ox Costa Trainers Ladies ",
+      "description": "These Converse Ox Costa Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a thick rubber sole for grip. These trainers are designed with a signature logo and are complete with Converse branding.",
+      "price": 49.99,
+      "brand": "converse",
+      "category": 1,
+      "rating": 4.6,
+      "recommeded_for": "Comfort",
+      "image_url": "https://images.sportsdirect.com/images/products/24824522_l.jpg",
+      "image": "24824522_l.jpg"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+      "sku": "271028",
+      "name": "Ox Costa Trainers Ladies ",
+      "description": "These Converse Ox Costa Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a thick rubber sole for grip. These trainers are designed with a signature logo and are complete with Converse branding.",
+      "price": 52.99,
+      "brand": "converse",
+      "category": 1,
+      "rating": 4.9,
+      "recommeded_for": "Causal",
+      "image_url": "https://images.sportsdirect.com/images/products/27511676_l.jpg",
+      "image": "27511676_l.jpg"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "sku": "271029",
+      "name": "Revolution Ladies Trainers",
+      "description": "These Nike Revolution Ladies Trainers have been developed with a cushioned insole and padded ankle collar for great comfort, whilst the textured rubber outsole promotes greater traction and the foam midsole helps absorb the impact of each step you take. ",
+      "price": 46.99,
+      "brand": "nike",
+      "category": 1,
+      "rating": 4.0,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27116043_l_a1.jpg",
+      "image": "27116043_l_a1.jpg"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "sku": "271030",
+      "name": "Revolution Ladies Trainers",
+      "description": "These Nike Revolution Ladies Trainers have been developed with a cushioned insole and padded ankle collar for great comfort, whilst the textured rubber outsole promotes greater traction and the foam midsole helps absorb the impact of each step you take. ",
+      "price": 47.99,
+      "brand": "nike",
+      "category": 1,
+      "rating": 4.3,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27116040_l.jpg",
+      "image": "27116040_l.jpg"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "sku": "271031",
+      "name": "Downshifter 9 Trainers Ladies ",
+      "description": "These Nike Downshifter 9 Trainers are crafted with lace fastening and a padded ankle collar for a secure fit. They feature a cushioned insole for comfort and a chunky sole for grip. These trainers are designed with a signature logo and are complete with Nike Swoosh branding and would make a great addition to your casual assemble. ",
+      "price": 49.99,
+      "brand": "nike",
+      "category": 1,
+      "rating": 4.6,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27158640_l.jpg",
+      "image": "27158640_l.jpg"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "sku": "271032",
+      "name": "Tanjun Ladies Ladies Trainers ",
+      "description": "The Nike Tanjun Trainers feature a mesh fabric upper to offer breathability to your feet, a chunky midsole creates underfoot cushioning, whilst the lace fastening and shaped, padded ankle collar provide a secure, locked-in fit. A striking Nike Swoosh is situated on the sides of the trainers to complete the overall look. ",
+      "price": 68.99,
+      "brand": "nike",
+      "category": 1,
+      "rating": 4.9,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/27400103_l.jpg",
+      "image": "27158640_l.jpg"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "sku": "271033",
+      "name": "Tanjun Ladies Ladies Trainers",
+      "description": "The Nike Tanjun Trainers feature a mesh fabric upper to offer breathability to your feet, a chunky midsole creates underfoot cushioning, whilst the lace fastening and shaped, padded ankle collar provide a secure, locked-in fit. A striking Nike Swoosh is situated on the sides of the trainers to complete the overall look.",
+      "price": 37.99,
+      "brand": "nike",
+      "category": 1,
+      "rating": 4.1,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/27400190_l.jpg",
+      "image": "27400190_l.jpg"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "sku": "271034",
+      "name": "Tanjun Ladies Ladies Trainers",
+      "description": "The Nike Tanjun Trainers feature a mesh fabric upper to offer breathability to your feet, a chunky midsole creates underfoot cushioning, whilst the lace fastening and shaped, padded ankle collar provide a secure, locked-in fit. A striking Nike Swoosh is situated on the sides of the trainers to complete the overall look.",
+      "price": 39.99,
+      "brand": "nike",
+      "category": 1,
+      "rating": 4.8,
+      "recommeded_for": "Causal",
+      "image_url": "https://images.sportsdirect.com/images/products/27400102_l.jpg",
+      "image": "27400102_l.jpg"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+      "sku": "271035",
+      "name": "Revolution 4 Ladies Trainers",
+      "description": "The Nike Tanjun Trainers feature a mesh fabric upper to offer breathability to your feet, a chunky midsole creates underfoot cushioning, whilst the lace fastening and shaped, padded ankle collar provide a secure, locked-in fit. A striking Nike Swoosh is situated on the sides of the trainers to complete the overall look.",
+      "price": 44.99,
+      "brand": "nike",
+      "category": 1,
+      "rating": 4.3,
+      "recommeded_for": "Multisport training",
+      "image_url": "https://images.sportsdirect.com/images/products/27158603_l.jpg",
+      "image": "27158603_l.jpg"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+      "sku": "271036",
+      "name": "Revolution 4 Ladies Trainers ",
+      "description": "The Nike Tanjun Trainers feature a mesh fabric upper to offer breathability to your feet, a chunky midsole creates underfoot cushioning, whilst the lace fastening and shaped, padded ankle collar provide a secure, locked-in fit. A striking Nike Swoosh is situated on the sides of the trainers to complete the overall look.",
+      "price": 36.99,
+      "brand": "nike",
+      "category": 1,
+      "rating": 3.3,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/27119803_l.jpg",
+      "image": "27119803_l.jpg"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "sku": "271037",
+      "name": "Revolution Ladies Trainers",
+      "description": "These Nike Revolution Ladies Trainers have been developed with a cushioned insole and padded ankle collar for great comfort, whilst the textured rubber outsole promotes greater traction and the foam midsole helps absorb the impact of each step you take.",
+      "price": 37.99,
+      "brand": "nike",
+      "category": 1,
+      "rating": 3.9,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/27116026_l.jpg",
+      "image": "27116026_l.jpg"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "sku": "271037",
+      "name": "Revolution Ladies Trainers",
+      "description": "These Nike Revolution Ladies Trainers have been developed with a cushioned insole and padded ankle collar for great comfort, whilst the textured rubber outsole promotes greater traction and the foam midsole helps absorb the impact of each step you take.",
+      "price": 37.99,
+      "brand": "nike",
+      "category": 2,
+      "rating": 3.9,
+      "recommeded_for": "Everyday Wear",
+      "image_url": "https://images.sportsdirect.com/images/products/27116026_l.jpg",
+      "image": "27116026_l.jpg"
+    }
+  },
+    
+]
