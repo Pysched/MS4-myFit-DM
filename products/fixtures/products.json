@@ -2655,6 +2655,246 @@
       "image": "65315703_l.jpg"
     }
   },
+  {
+    "pk": 163,
+    "model": "products.product",
+    "fields": {
+      "sku": "271143",
+      "name": "USA Pro Yoga Ball ",
+      "description": "This USA Pro Yoga Ball comes complete with a pump and 12 step by step exercises to help improve overall fitness.",
+      "price": 7.99,
+      "brand": "usapro",
+      "category": 4,
+      "rating": 4.0,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76141402_l.jpg",
+      "image": "76141402_l.jpg"
+    }
+  },
+  {
+    "pk": 164,
+    "model": "products.product",
+    "fields": {
+      "sku": "271144",
+      "name": "USA Pro Move Yoga Ball ",
+      "description": "The USA Pro Move Yoga Ball is excellent for toning and strengthening your core muscle group. Half of the ball benefits from a bumped surface which helps tackle and alleviate muscle pains. The ball is finished off with USA Pro branding. ",
+      "price": 11.99,
+      "brand": "usapro",
+      "category": 4,
+      "rating": 4.1,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76198918_l.jpg",
+      "image": "76141402_l.jpg"
+    }
+  },
+   {
+    "pk": 165,
+    "model": "products.product",
+    "fields": {
+      "sku": "271145",
+      "name": "Reebok Stability 75cm Gymball",
+      "description": "Possibly one of the most versatile and accessible pieces of training equipment, a gymball can be used to perform a wide variety of exercises which will considerably improve your core strength, posture and flexibility.",
+      "price": 12.99,
+      "brand": "reebok",
+      "category": 4,
+      "rating": 4.3,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76195599_l.jpg",
+      "image": "76195599_l.jpg"
+    }
+  },
+  {
+    "pk": 166,
+    "model": "products.product",
+    "fields": {
+      "sku": "271146",
+      "name": "Adidas 75cm Gymball",
+      "description": "A gymball has to offer a fine balance between support and instability, if the ball is too rigid or too soft then the effects on your core stabilising muscles will be compromised. The adidas Gymballs all perform to these optimal levels.",
+      "price": 14.99,
+      "brand": "adidas",
+      "category": 4,
+      "rating": 4.4,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76200924_l.jpg",
+      "image": "76200924_l.jpg"
+    }
+  },
+  {
+    "pk": 167,
+    "model": "products.product",
+    "fields": {
+      "sku": "271147",
+      "name": "USA Pro Resistance Band Set ",
+      "description": "Improve strength with the USA Pro Resistance Band Set. The set features three different latex open-loop bands with low, medium and high resistance varieties making them suitable for all types of training. The open loop feature allows the bands to be completely adjustable so you can change the sizing as needed. These lightweight and versatile bands are easy to carry in your gym bag and can be used for a variety of workouts to help tone and shape muscles. ",
+      "price": 8.99,
+      "brand": "usapro",
+      "category": 4,
+      "rating": 4.5,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76139199_l.jpg",
+      "image": "76139199_l.jpg"
+    }
+  },
+  {
+    "pk": 168,
+    "model": "products.product",
+    "fields": {
+      "sku": "271148",
+      "name": "USA Pro Resistance Tubes",
+      "description": "Target muscles efficiently with the USA Pro Resistance Tubes. Crafted with comfort grip foam handles, the resistance band can be utilised for a variety of exercises and assists with strengthening and sculpting multiple muscle groups at the same time.",
+      "price": 9.99,
+      "brand": "usapro",
+      "category": 4,
+      "rating": 4.1,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76129102_l.jpg",
+      "image": "76129102_l.jpg"
+    }
+  },
+  {
+    "pk": 169,
+    "model": "products.product",
+    "fields": {
+      "sku": "271149",
+      "name": "Everlast Resistance Trainer",
+      "description": "Enjoy a workout at your own pace with this Everlast Resistance Trainer, featuring an elasticated cord and two ergonomically gripped handles for comfort. ",
+      "price": 15.99,
+      "brand": "everlast",
+      "category": 4,
+      "rating": 4.6,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76136491_l.jpg",
+      "image": "76136491_l.jpg"
+    }
+  },
+  {
+    "pk": 170,
+    "model": "products.product",
+    "fields": {
+      "sku": "271150",
+      "name": "VX3 Speed Resistance Chute ",
+      "description": "",
+      "price": 19.99,
+      "brand": "vx3",
+      "category": 4,
+      "rating": 4.3,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76117403_l.jpg",
+      "image": "76117403_l.jpg"
+    }
+  },
+   {
+    "pk": 171,
+    "model": "products.product",
+    "fields": {
+      "sku": "271151",
+      "name": "Sklz Resistance Cable ",
+      "description": "Designed to offer a total body workout, in a simple yet functional design, the Sklz Resistance Cable is guaranteed to offer superior stretch and resistance. Featuring two flex handles, be sure to elevate your workout game at an everyday low price. ",
+      "price": 21.99,
+      "brand": "sklz",
+      "category": 4,
+      "rating": 4.7,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76103290_l.jpg",
+      "image": "76103290_l.jpg"
+    }
+  },
+  {
+    "pk": 172,
+    "model": "products.product",
+    "fields": {
+      "sku": "271152",
+      "name": "Everlast Hand Grips ",
+      "description": "The Everlast Hand Grips are perfect for your next training session, featuring a neoprene construction with palm vents and mesh panels for comfort and breathability. These gloves then also come including EverGel padding to the back of the knuckles that helps to disperse the energy from impact. All whilst a Compress-x strap provides support along the hands and wrist. The gloves are then finished with a touch tape fastening strap to allow for a comfortable fit as well as featuring the signature Everlast logo that completes the look with some fierce brand recognition. Do not miss out on these. ",
+      "price": 15.99,
+      "brand": "everlast",
+      "category": 4,
+      "rating": 4.2,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76120724_l.jpg",
+      "image": "76120724_l.jpg"
+    }
+  },
+   {
+    "pk": 173,
+    "model": "products.product",
+    "fields": {
+      "sku": "271153",
+      "name": "PTP Slider Set ",
+      "description": "PTP Slider Set",
+      "price": 15.99,
+      "brand": "ptp",
+      "category": 4,
+      "rating": 4.4,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76118099_l.jpg",
+      "image": "76118099_l.jpg"
+    }
+  },
+  {
+    "pk": 174,
+    "model": "products.product",
+    "fields": {
+      "sku": "271154",
+      "name": "PTP Superband",
+      "description": "PTP Superband",
+      "price": 17.99,
+      "brand": "ptp",
+      "category": 4,
+      "rating": 4.5,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76066518_l.jpg",
+      "image": "76066518_l.jpg"
+    }
+  },
+  {
+    "pk": 175,
+    "model": "products.product",
+    "fields": {
+      "sku": "271155",
+      "name": "PTP Core Sliders",
+      "description": "PTP Core Sliders",
+      "price": 18.99,
+      "brand": "ptp",
+      "category": 4,
+      "rating": 4.7,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76067828_l.jpg",
+      "image": "76067828_l.jpg"
+    }
+  },
+   {
+    "pk": 176,
+    "model": "products.product",
+    "fields": {
+      "sku": "271156",
+      "name": "Reebok Power Tube Rack ",
+      "description": "The Reebok Power Tube Rack is simple to assemble, the Reebok Studio Power Tube Rack offers compact storage for up to 36 Reebok Power Tubes and is solely designed for use with this product.Power Tubes can be removed from the rack with ease and placed back after use. Its space saving narrow base ensures the rack can be discreetly stored in the corner of the studio. All in all, the Reebok Power Tube Rack is a stylish and effective storage solution for any gym class environment.",
+      "price": 21.99,
+      "brand": "ptp",
+      "category": 4,
+      "rating": 4.9,
+      "recommeded_for": "fitness",
+      "image_url": "https://images.sportsdirect.com/images/products/76052669_l.jpg",
+      "image": "76052669_l.jpg"
+    }
+  },
+  {
+    "pk": 177,
+    "model": "products.product",
+    "fields": {
+      "sku": "271157",
+      "name": "Reebok Power Tube Rack ",
+      "description": "The Reebok Power Tube Rack is simple to assemble, the Reebok Studio Power Tube Rack offers compact storage for up to 36 Reebok Power Tubes and is solely designed for use with this product.Power Tubes can be removed from the rack with ease and placed back after use. Its space saving narrow base ensures the rack can be discreetly stored in the corner of the studio. All in all, the Reebok Power Tube Rack is a stylish and effective storage solution for any gym class environment.",
+      "price": 28.99,
+      "brand": "ptp",
+      "category": 4,
+      "rating": 4.1,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76052669_l.jpg",
+      "image": "76052669_l.jpg"
+    }
+  },
 
 
     
