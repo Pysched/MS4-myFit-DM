@@ -3199,6 +3199,326 @@
       "image": "79407918_l.jpg"
     }
   },
+  {
+    "pk": 196,
+    "model": "products.product",
+    "fields": {
+      "sku": "271176",
+      "name": "Everlast Kettle Bell",
+      "description": "Available in a range of weights the Everlast Kettle Bell features a wide grip comfort handle for smooth movements and a rubber coated lower half designed to reduce noise and protect surfaces. ",
+      "price": 59.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.7,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76137295_l.jpg",
+      "image": "76137295_l.jpg"
+    }
+  },
+  {
+    "pk": 197,
+    "model": "products.product",
+    "fields": {
+      "sku": "271177",
+      "name": "USA Pro Hand Weight",
+      "description": "The USA Pro Hand Weights are the perfect addition for your workout classes and gym sessions, featuring a soft ergonomic handle for added comfort. This hand held weight is complete with the USA Pro logo to the side for a great look. ",
+      "price": 5.99,
+      "brand": "usapro",
+      "category": 6,
+      "rating": 4.6,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76116990_l_a3.jpg",
+      "image": "76116990_l_a3.jpg"
+    }
+  },
+  {
+    "pk": 198,
+    "model": "products.product",
+    "fields": {
+      "sku": "271178",
+      "name": "Everlast Chrome Dumbbell",
+      "description": "This Everlast Chrome Dumbbell has a textured handle for superior grip when working out, whilst their metal construction ensues long lasting durability and the Everlast branding completes the great look. ",
+      "price": 35.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.1,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76129294_l.jpg",
+      "image": "76129294_l.jpg"
+    }
+  },
+  {
+    "pk": 199,
+    "model": "products.product",
+    "fields": {
+      "sku": "271179",
+      "name": "USA Pro Ankle and Wrist Weights",
+      "description": "Take your workout to new levels with the USA Pro Ankle and Wrist Weights. This set of two 0.5kg weights are ideal for building on core strength and adding extra resistance when needed.",
+      "price": 6.99,
+      "brand": "usapro",
+      "category": 6,
+      "rating": 4.3,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76197349_l.jpg",
+      "image": "76197349_l.jpg"
+    }
+  },
+  {
+    "pk": 200,
+    "model": "products.product",
+    "fields": {
+      "sku": "271180",
+      "name": "USA Pro Ankle and Wrist Weights",
+      "description": "These USA Pro Ankle / Wrist Weights are perfect for adding extra resistance to your workouts to build core strength, each weight weighs 500g and features a simple hook and loop closure for an easily adjustable fit.",
+      "price": 7.99,
+      "brand": "usapro",
+      "category": 6,
+      "rating": 4.4,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76156602_l.jpg",
+      "image": "76156602_l.jpg"
+    }
+  },
+  {
+    "pk": 201,
+    "model": "products.product",
+    "fields": {
+      "sku": "271181",
+      "name": "Everlast 18KG Dumbbell Set ",
+      "description": "The Everlast 18KG Dumbbell Set will help kick start any home gym setup these weights are ideal for building arm muscle strength. Perfect for light home workouts.",
+      "price": 44.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.7,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76137190_l.jpg",
+      "image": "76137190_l.jpg"
+    }
+  },
+  {
+    "pk": 202,
+    "model": "products.product",
+    "fields": {
+      "sku": "271182",
+      "name": "Everlast Hex Weight ",
+      "description": "These Everlast Hex Weightwill help bring variety to your work out. These weights are more joint friendly than other forms of exercise, this is due to their being a more natural movement on your shoulder and elbow, your hands are not fixed on place so you are able to turn/rotate them as you press. If you have limited space and equipment these are great for home use, also the hexagonal shape means when placing your weight down during exercises this does not role away. These are sold as single Hex Weights but are also available as Sets",
+      "price": 3.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.8,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76004571_l.jpg",
+      "image": "76004571_l.jpg"
+    }
+  },
+  {
+    "pk": 203,
+    "model": "products.product",
+    "fields": {
+      "sku": "271183",
+      "name": "Travel Water Bottle Dumbbell 2.4 Litre",
+      "description": "Simply fill with water and workout in style with the Travel Water Bottle Dumbbell 2.4 Litre. Stay refreshed during your fitness regime with both a water bottle and dumbbell in one. Fill with water up to 2.4 litre. After using, remove the water. The empty dumbbell is easy to carry and transport for travelling.",
+      "price": 7.99,
+      "brand": "edco",
+      "category": 6,
+      "rating": 4.1,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76122399_l.jpg",
+      "image": "76122399_l.jpg"
+    }
+  },
+  {
+    "pk": 204,
+    "model": "products.product",
+    "fields": {
+      "sku": "271184",
+      "name": "Travel Water Bottle Dumbbell 1 Litre",
+      "description": "Easy to fill with water up to 1 litre, elevate your workout game with the Travel Water Bottle Dumbbell 1 Litre. Simply fill with water up to your choice of weight (maximum capacity: 1kg). After using, remove the water. The empty dumbbell is easy to carry and transport for travelling.",
+      "price": 3.99,
+      "brand": "edco",
+      "category": 6,
+      "rating": 3.0,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76118799_l.jpg",
+      "image": "76118799_l.jpg"
+    }
+  },
+  {
+    "pk": 205,
+    "model": "products.product",
+    "fields": {
+      "sku": "271185",
+      "name": "Everlast 12.5kg Adjustable Dumbbell",
+      "description": "With only a push and a slide, you can alter the weight setting with this amazing Everlast 12.5kg Adjustable Dumbbell. Change between 2.5kg up to 12.5kg instantly. Note that the total dumbbell weight includes the weight of the handle (2.5kg). One single Everlast weight set is equivalent to five differently weighted dumbbells. This means there's no need to buy another three dumbbells - settle instead for this all-in-one. The compact design means that this dumbbell set will take up little space in your home. Suited to the any fitness enthusiast who is looking to develop their body with definitive goals and challenges, this piece of exercise equipment is a great addition to any home gym. The weight makes it ideal for stretching and breaking the muscles ready for rapid muscle development. ",
+      "price": 59.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 3.8,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76111046_l.jpg",
+      "image": "76111046_l.jpg"
+    }
+  },
+  {
+    "pk": 206,
+    "model": "products.product",
+    "fields": {
+      "sku": "271186",
+      "name": "USA Pro Move Wrist Weights",
+      "description": "The USA Pro Move Wrist Weights feature hook and loop tabs with thumb loops for a secure fit.  ",
+      "price": 9.99,
+      "brand": "usapro",
+      "category": 6,
+      "rating": 3.8,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76197490_l.jpg",
+      "image": "76197490_l.jpg"
+    }
+  },
+  {
+    "pk": 207,
+    "model": "products.product",
+    "fields": {
+      "sku": "271187",
+      "name": "Reebok Astroride A2.0 Treadmill",
+      "description": "The Reebok Astroride A2.0 Treadmill features Astroride cushioning technology which enhances your spring and reduces joint impact for a softer, more forgiving running platform. Fitted with the FUTURE control console, the A2.0’s LED display provides detailed feedback for optimal training. Offering 36 pre-set workouts and 3 user-defined programs, the treadmill’s 1.5 HP motor reaches 13 kph across 2 incline levels; kickstarting your home cardio regime.  ",
+      "price": 399.99,
+      "brand": "reebok",
+      "category": 6,
+      "rating": 4.8,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76002811_l.jpg",
+      "image": "76002811_l.jpg"
+    }
+  },
+  {
+    "pk": 208,
+    "model": "products.product",
+    "fields": {
+      "sku": "271188",
+      "name": "Reebok I-Run 3.0 Treadmill",
+      "description": "The Reebok i-Run 3.0 Treadmill is a ultra-compact treadmill, suitable for any room in the home, it features an innovative folding mechanism enabling it to be folded completely flat with the console and handles sitting in line with the running deck. The treadmill comes 100% built so there is no tricky assembly required. Simply unpack, unfold and go! Exercise in comfort with the 8-piece cushioning system which absorbs every foot strike whilst running. This elastomer cushioning offers a spring like feel to minimise pressure on the joints. The Reebok i-Run offers 12 pre-set workout programmes, 3 user profiles, 3 heart rate control programmes and a body fat tester. Grasp the pulse sensors on the treadmill's handlebar to pick up a heart rate reading. It also has MP3 input with speakers for you to run to your favourite playlists. Add to this a 1.5HP motor, a max speed of 13kph and two levels of manual incline and you have everything you need for a varied, challenging and effective workout.",
+      "price": 459.99,
+      "brand": "reebok",
+      "category": 6,
+      "rating": 4.4,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76020801_l.jpg",
+      "image": "76020801_l.jpg"
+    }
+  },
+  {
+    "pk": 209,
+    "model": "products.product",
+    "fields": {
+      "sku": "271189",
+      "name": "Everlast 30lb Kettlebell Set",
+      "description": "Everlast 30lb Kettlebell Set",
+      "price": 459.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.6,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76109103_l.jpg",
+      "image": "76109103_l.jpg"
+    }
+  },
+  {
+    "pk": 210,
+    "model": "products.product",
+    "fields": {
+      "sku": "271190",
+      "name": "Everlast Weight Plate Rack",
+      "description": "The Everlast Weight Plate Rack is a perfect addition to any home gym, with 9 storage rods it holds a generous number of weight plates. If your training area is un-organised this can easily get in the way of achieving your fitness goals, not only is clutter de-motivating, but if gym equipment is not stored correctly it can cause damage to your equipment or worse, you could injure yourself.",
+      "price": 119.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.0,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76292203_l.jpg",
+      "image": "76292203_l.jpg"
+    }
+  },
+   {
+    "pk": 211,
+    "model": "products.product",
+    "fields": {
+      "sku": "271191",
+      "name": "Karrimor T350 Walking Treadmill",
+      "description": "With the Karrimor T350 Walking Treadmill have taken their own technical expertise, the best of mid-range to high designs on the market and built in lots of functionality from the top end treadmills. The walking deck is powered by a more than capable 1.00 horse power motor for long smooth walks. The running mat is a real joy for those used to road or track running. This is a folding walking treadmill, so as you would expect its compact for storage. Karrimor has used its heritage in the international running arena to bring you the best treadmill packages there is. So if you do not have time for the gym, or do not like the look of the weather, or just want to work out at home then this is what you were looking for. ",
+      "price": 179.99,
+      "brand": "karrimor",
+      "category": 6,
+      "rating": 4.3,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76529603_l.jpg",
+      "image": "76529603_l.jpg"
+    }
+  },
+  {
+    "pk": 212,
+    "model": "products.product",
+    "fields": {
+      "sku": "271192",
+      "name": "Everlast Cross Training Set ",
+      "description": "This Everlast Cross Training Set is designed to improve strength, power and agility to help you build up muscle. The set contains a 4.5kg weighted vest, 10kg weighted power bag and a weighted jump rope, all designed with Everlast branding. ",
+      "price": 109.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.4,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/70114703_l.jpg",
+      "image": "70114703_l.jpg"
+    }
+  },
+  {
+    "pk": 213,
+    "model": "products.product",
+    "fields": {
+      "sku": "271193",
+      "name": "Everlast Fitness Kit ",
+      "description": "Everlast Fitness Kit  ",
+      "price": 109.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.4,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76108199_l.jpg",
+      "image": "76108199_l.jpg"
+    }
+  },
+  {
+    "pk": 214,
+    "model": "products.product",
+    "fields": {
+      "sku": "271194",
+      "name": "Everlast Barrel Shape Rack",
+      "description": "This Everlast Barrel Shape Rack stores up to 10 pairs of dumbbells and looks good too. Having an un-organised environment can easily get in the way of achieving fitness goals, not only is clutter de-motivating, but if gym equipment is not stored correctly it can lead to the equipment getting damaged or worse you could injure yourself. ",
+      "price": 105.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.5,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76292101_l.jpg",
+      "image": "76292101_l.jpg"
+    }
+  },
+  {
+    "pk": 214,
+    "model": "products.product",
+    "fields": {
+      "sku": "271194",
+      "name": "Everlast Barrel Shape Rack",
+      "description": "This Everlast Barrel Shape Rack stores up to 10 pairs of dumbbells and looks good too. Having an un-organised environment can easily get in the way of achieving fitness goals, not only is clutter de-motivating, but if gym equipment is not stored correctly it can lead to the equipment getting damaged or worse you could injure yourself. ",
+      "price": 105.99,
+      "brand": "everlast",
+      "category": 6,
+      "rating": 4.5,
+      "recommeded_for": "gymaccessories",
+      "image_url": "https://images.sportsdirect.com/images/products/76292101_l.jpg",
+      "image": "76292101_l.jpg"
+    }
+  },
 
 
     
