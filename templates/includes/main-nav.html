@@ -5,9 +5,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -28,12 +28,12 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Equipment
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Fitness Equipment</a>
-                <a href="" class="dropdown-item">Gym Accessories</a>
-                <a href="" class="dropdown-item">Gym Equipment</a>
-                <a href="" class="dropdown-item">Sports Nutrition</a>
-                <a href="" class="dropdown-item">All Equipment</a>
+            <div class="dropdown-menu border-0" aria-labelledby="gymequipment-link">
+                <a href="{% url 'products' %}?category=womens" class="dropdown-item">Fitness Equipment</a>
+                <a href="{% url 'products' %}?category=fitness_equipment" class="dropdown-item">Gym Accessories</a>
+                <a href="{% url 'products' %}?category=gym_accessories" class="dropdown-item">Gym Equipment</a>
+                <a href="{% url 'products' %}?category=sports_nutrition" class="dropdown-item">Sports Nutrition</a>
+                <a href="{% url 'products' %}?category=gym_equipment, gym_accessories,fitness_equipment,sports_nutrition" class="dropdown-item">All Equipment</a>
             </div>
         </li>
 
