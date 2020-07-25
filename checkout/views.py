@@ -30,7 +30,7 @@ def checkout(request):
         }
         order_form = OrderForm(form_data)
         if order_form.is_valid():
-            order_form.save()
+            order = order_form.save()
             for item_id, item_data in bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
@@ -52,16 +52,17 @@ def checkout(request):
                             order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your bag wasn't found in our database."
-                        "Please call us for assistance!"
-                    ))
+                        "One of the products in your bag wasn't found in our database. "
+                        "Please call us for assistance!")
+                    )
                     order.delete()
                     return redirect(reverse('view_bag'))
+
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success', args=[order.order_number]))
         else:
-            messages.error(request, "There was an error with your form. \
-                    Please double check you information.")
+            messages.error(request, 'There was an error with your form. \
+                Please double check your information.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
@@ -94,12 +95,15 @@ def checkout(request):
 
 
 def checkout_success(request, order_number):
-    save_info = request.session.get('save-info')
+    """
+    Handle successful checkouts
+    """
+    save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
-    messages.success(request, f'Order successfuly processed! \
+    messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
-            email will be sent to (order@email).')
-    
+        email will be sent to {order.email}.')
+
     if 'bag' in request.session:
         del request.session['bag']
 
