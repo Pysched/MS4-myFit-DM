@@ -41,9 +41,7 @@ body{
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
-    
 }
-
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
@@ -101,6 +99,10 @@ a.category-badge > span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
+}
+
+input[name='q']::placeholder {
+    color: #aab7c4;
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -178,32 +180,6 @@ a.category-badge > span.badge:hover {
   .container {
     max-width: 80%;
   }
-}
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
 }
 
 /* Allauth form formatting */
