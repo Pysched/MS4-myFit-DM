@@ -1,125 +1,357 @@
-html {
+html{
     height:100%;
 }
 
 body{
-    background:url('https://www.ravereviews.org/wp-content/uploads/2018/08/Biking-workout.jpg');
+    background:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.askmen.com%2F1080x540%2F2017%2F02%2F23-032912-strength_building_lessons_men_can_learn_from_women.jpg&f=1&nofb=1')no-repeat center center fixed;
     background-size:cover;
-    height: calc(100vh -164px);
+    height: calc(100vh - 164px);
     color:#555;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* from Bulma */
-.icon {
-    align-items: center;
-    display: inline-flex;
+
+.container-img{
+    background-size:cover;
+    margin-top:164px;
+}
+
+.banner{
+    background-image:url('https://github.com/Pysched/Dm-MyFit/blob/9cf6b1a522f4779b5baa9aff67e763f51436656e/media/banner3.jpg')no-repeat center center fixed;
+    background-size:cover;
+}
+
+/* Taken from Bulma for fontawesome icons for size and positioning */
+.icon{
+    align-items:center;
+    display:inline-flex;
     justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
+    height:1.5rem;
+    width:1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
+.inline li{
+    display:inline-block;
+    color:#fff;
+    
 }
 
-.main-logo-link {
-    width: fit-content;
+.cat-btn a{
+    border:2px solid #343a40;
+    background-color: aqua;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-.shop-now-button {
+.logo-text {
+    text-transform:uppercase;
+}
+
+.main-logo {
+    width:fit-content;
+}
+
+.main-btn{
+    background:rgb(12, 130, 241);
+    color:#fff;
+    min-width:260px;
+}
+
+.btn-black{
     background: black;
-    color: white;
-    min-width: 260px;
+    color:#fff;
 }
 
-.btn-black {
-    background: black;
-    color: white;
+#main-navbar{
+    margin-top:20px;
+    margin-bottom:25px;
+    
 }
 
-.btn-outline-black {
-    background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+/*--- Search Bar -- */
+.form-control, input[type=text] {
+  width: 255px!important;
+  box-sizing: border-box!important;
+  border: 2px solid #ccc!important;
+  border-radius: 4px!important;
+  font-size: 16px!important;
+  background-color: white!important;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px!important; 
+  background-repeat: no-repeat!important;
+  
+  -webkit-transition: width 0.4s ease-in-out!important;
+  transition: width 0.4s ease-in-out!important;
 }
 
-.btn-outline-black:hover,
-.btn-outline-black:active,
-.btn-outline-black:focus {
-    background: black;
-    color: white !important;
+input[type=text]:focus {
+  width: 100%!important;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
+.form-control{
+    width:250px!important;
 }
 
-.text-black {
-    color: #000 !important;
+
+.main-btn:hover, .main-btn:active, .main-btn:focus,
+.btn-black:hover, .btn-black:hover, .btn-black:focus{
+    background:rgb(20, 47, 223);
+    color:#fff;
 }
 
-.border-black {
-    border: 1px solid black !important;
+.price:hover, .price:active, .price:focus {
+    color:rgb(12, 130, 241);
 }
 
-.bg-black {
-    background: #000 !important;
+.black-text{
+    color:#000!important;
 }
 
-.overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
+.white-text{
+    color:#fff!important;
+}
+
+.mnav:hover{
+   color:rgb(12, 130, 241);
+}
+
+.blue-text{
+    color:rgb(12, 130, 241);
+}
+
+.border-black{
+    border:1px solid#000!important;
+}
+
+a .nav-item-link{
+    color:#fff!important;
+}
+
+.price{
+    color:#fff;
+}
+
+.icons{
+    display:none;
+}
+
+.nav-text{
+    display:block;    
+}
+
+/* -- Bootstrap override -- */
+/* -- Search bar -- */
+.form-control{
+    border-radius:0!important;
+    border:0!important;
+}
+
+.blue{
+    background-color:rgb(12, 130, 241);
+}
+
+.icon{
+    color:#fff;
+}
+
+.nav-link{
+    margin-right:15px!important;
+}
+
+.search-box{
+    margin-right:35px;
+
+}
+
+.dropdown-menu{
+    margin-top:7px;
+    border-radius:0;
+    background-color:#fff;
+}
+
+
+.dropdown-item:focus{
+    color:#343a40;
+    background-color:none;
+}
+.dropdown-item:hover{
+    background-color:none;
+}
+
+.header-container{
+        padding-top:88px;
 }
 
 a.category-badge > span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
+    background:#212529!important;
+    color:#fff!important;
 }
 
-.btt-button {
-    height: 42px;
-    width: 42px;
+.btt-link, a.update-link, a.remove-item {
+    cursor:pointer;
+}
+
+.btt-button{
+    height:40px;
+    width:40px;
+    position:fixed;
+    bottom:10px;
+    right:125px;
+}
+
+.btn-outline-black{
+    background:#fff;
+    color:black!important;
+    border:1px solid black;
+}
+
+.icon{
+    color:#000;
+}
+
+.delivery{
+    background:rgb(12, 130, 241);
+    color:#fff;
+}
+
+
+
+/* ---------- Media Queries ---------- */
+@media (min-width: 1200px) {
+    .container{
+        max-width: 80%;
+    }
+}
+
+/* fixed top navbar on meduin upwards */
+@media (min-width:992px) {
+    .fixed-top-desktop-only
+        {
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        z-index:1020;
+        }
+    .search-box{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .header-container{
+        padding-top:128px;
+    }
+}
+
+/* ----- HR Lines ----- */
+.line{
+    border-bottom:2px solid #343a40 !important;
+    margin-left:0;
+    text-align:left;
+}
+.product-line{
+    background-color: #343a40 !important;
+}
+
+hr.pd-line{
+    background-color:#fff;
+}
+
+/* ----- Card-body CSS ----- */
+.card-body{
+    padding-top:0;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+img{
+    transform:scale(.8);
+}
+ 
+.inner img{
+    transition: all 1.0s ease;
+}
+ 
+.inner:hover img{
+    transform: scale(1);
+}
+
+.rating{
+    margin-right:5px;
+    margin-left:auto;
+}
+
+
+/* ----- Training-Overlay CSS ----- */
+.training-overlay-success{
+    background-color:green;
+    opacity:.6;
+
+}
+.training-overlay{
+    background-color:red;
+    opacity:.6;
+
+}
+
+
+/* ----- Footer CSS ----- */
+footer{
+    width:100%;
+    height:75px;
+    bottom:0;
+    /* position:absolute; */
+}
+
+/* -- Section 1 --*/ 
+.section-1{
+    width:100%;
+    height:auto;
+}
+
+/* --------- Products page css --------- */
+.overlay{
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    background:#fff;
+    z-index:-1;
+}
+
+.products{
+
+}
+
+
+.login-container{
+    margin-top:175px;
+    padding:1.5rem;
+    margin-bottom:55px;
+    height:100vh;
+}
+
+/* --------- Product Details page css --------- */
+.product-details{
+    margin-top:10em;
+}
+
+/* --------- toasts --------- */
+.message-container{
     position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
-.btt-link,
-.update-link,
-.remove-item {
-    cursor: pointer;
-}
-
-input[name='q']::placeholder {
-    color: #aab7c4;
-}
-
-/* ------------------------------- bootstrap toasts */
-
-.message-container {
-    position: fixed;
-    top: 72px;
+    top:172px;
     right: 15px;
-    z-index: 99999999999;
+    z-index: 99999999;
 }
 
-.custom-toast {
-    overflow: visible;
+.custom-toast{
+    overflow:visible;
 }
 
-.toast-capper {
-    height: 2px;
+.toast-capper{
+    height:2px;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -171,158 +403,4 @@ input[name='q']::placeholder {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
-}
-
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
-/* Allauth form formatting */
-
-.allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
-}
-
-.allauth-form-inner-content input {
-    border-color: #000;
-    border-radius: 0;
-}
-
-.allauth-form-inner-content label:not([for='id_remember']) {
-    display: none;
-}
-
-.allauth-form-inner-content input::placeholder {
-    color: #aab7c4;
-}
-
-.allauth-form-inner-content button,
-.allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0;
-
-    /* standard bootstrap btn transitions */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
-    background-color: #222;
-    border-color: #222;
-}
-
-.allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
-}
-
-/* Product Form */
-
-.btn-file {
-    position: relative;
-    overflow: hidden;
-}
-
-.btn-file input[type="file"] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.custom-checkbox .custom-control-label::before {
-    border-radius: 0;
-    border-color: #dc3545;
-}
-
-.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
-    border-color: #dc3545;
-    border-radius: 0;
-}
-
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-
-    .display-4.logo-font.text-black {
-        font-size: 2rem;
-    }
-
-    .nav-link {
-        padding: 0.15rem;
-    }
-
-    .nav-link i.fa-lg {
-        font-size: 1rem;
-    }
-
-    .navbar-toggler {
-        padding: .6rem .6rem;
-        font-size: 1rem;
-    }
-
-    #delivery-banner h4 {
-        font-size: .9rem;
-    }
-
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
-        padding: .375rem .375rem;
-    }
-
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
-        padding: .375rem .375rem;
-        font-size: .75rem;
-    }
-
-    .increment-qty, .decrement-qty {
-        padding: .25rem .5rem !important;
-    }
 }
